@@ -179,6 +179,28 @@ li:not(:last-child) .contacts-item {
   margin-right: 24px;
 }
 
+/* .list_item.benefits::before {
+  content: "";
+  display: block;
+  height: 124px;
+  border: 2px solid red;
+  margin-bottom: 8px;
+  background-image: url("../images/symbol-defs.svg#icon-antenna");
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+.icon-wrapper {
+  margin-bottom: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 100px;
+  border-radius: 4px;
+
+  background-color: var(--cloud-color);
+}
+
 .title-text {
   font-weight: 500;
   font-size: 20px;
