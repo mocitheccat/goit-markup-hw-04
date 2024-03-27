@@ -1,0 +1,76 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-antenna {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-astronaut {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-clock {
+  width: 32px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.icon-company-1 {
+  width: 25px;
+  height: 32px;
+  background-position: -144px 0;
+}
+.icon-company-2 {
+  width: 34px;
+  height: 32px;
+  background-position: -192px 0;
+}
+.icon-company-3 {
+  width: 66px;
+  height: 32px;
+  background-position: -240px 0;
+}
+.icon-company-4 {
+  width: 44px;
+  height: 32px;
+  background-position: -336px 0;
+}
+.icon-company-5 {
+  width: 67px;
+  height: 32px;
+  background-position: -432px 0;
+}
+.icon-company {
+  width: 28px;
+  height: 32px;
+  background-position: -528px 0;
+}
+.icon-diagram {
+  width: 32px;
+  height: 32px;
+  background-position: -576px 0;
+}
+.icon-facebook {
+  width: 32px;
+  height: 32px;
+  background-position: -624px 0;
+}
+.icon-instagram {
+  width: 32px;
+  height: 32px;
+  background-position: -672px 0;
+}
+.icon-linkedin {
+  width: 32px;
+  height: 32px;
+  background-position: -720px 0;
+}
+.icon-twitter {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -48px;
+}
+
