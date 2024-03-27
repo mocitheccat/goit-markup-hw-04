@@ -6,7 +6,9 @@
   --navy-blue-color: #2e2f42;
   --cloud-color: #f4f4fd;
   --hover-btn-color: #404bbf;
+  --hover-social-media-link-color: #31d0aa;
   --cornflower-color: #e7e9fc;
+  --customers-link-color: #8e8f99;
 }
 
 body {
@@ -61,6 +63,7 @@ body {
 
   list-style: none;
   align-items: flex-start;
+  justify-content: space-between;
 }
 
 nav,
@@ -175,20 +178,10 @@ li:not(:last-child) .contacts-item {
 
 /* COMMON STYLING  */
 
-.list_item:not(:last-child) {
+/* .list_item:not(:last-child) {
   margin-right: 24px;
-}
-
-/* .list_item.benefits::before {
-  content: "";
-  display: block;
-  height: 124px;
-  border: 2px solid red;
-  margin-bottom: 8px;
-  background-image: url("../images/symbol-defs.svg#icon-antenna");
-  background-repeat: no-repeat;
-  background-position: center;
 } */
+
 .icon-wrapper {
   margin-bottom: 8px;
 
@@ -217,7 +210,7 @@ li:not(:last-child) .contacts-item {
   letter-spacing: 0.02em;
   color: var(--contacts-item-color);
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 .section-title {
@@ -232,7 +225,7 @@ li:not(:last-child) .contacts-item {
   margin-bottom: 72px;
 }
 
-.section:not(:last-child) {
+.section {
   margin-bottom: 120px;
 }
 
@@ -250,7 +243,34 @@ li:not(:last-child) .contacts-item {
 
 /* TEAM  */
 
-main .section:last-child {
+.member-card > img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.social-icon__link {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--logo-color);
+}
+
+.social-icon__link:hover,
+.social-icon__link:focus {
+  background-color: var(--hover-social-media-link-color);
+}
+
+.social-icon {
+  fill: var(--cloud-color);
+  margin: auto auto;
+}
+
+.member-data .description-text {
+  margin-bottom: 8px;
+}
+
+main .section:nth-child(4n) {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -263,6 +283,32 @@ main .section:last-child {
     0px 1px 6px 0px #2e2f4214;
 
   border-radius: 4px;
+}
+
+/* CUSTOMERS */
+
+.company-icon__link {
+  display: inline-flex;
+  width: 168px;
+  height: 88px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid var(--customers-link-color);
+  color: var(--customers-link-color);
+}
+
+.company-icon {
+  fill: currentColor;
+}
+
+.company-icon__link:hover .company-icon,
+.company-icon__link:focus .company-icon {
+  fill: var(--hover-btn-color);
+}
+
+.company-icon__link:hover,
+.company-icon__link:focus {
+  border: 1px solid var(--hover-btn-color);
 }
 
 /* FOOTER  */
