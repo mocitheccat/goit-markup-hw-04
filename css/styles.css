@@ -339,6 +339,34 @@ main .section:nth-child(4n) {
   color: var(--cloud-color);
 }
 
+.footer-social-links > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.footer > .container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer .social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer .social-icon__link {
+  margin-right: 16px;
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+
 /* PORTFOLIO PAGE  */
 
 /* FILTER BTNS  */
