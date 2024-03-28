@@ -178,10 +178,6 @@ li:not(:last-child) .contacts-item {
 
 /* COMMON STYLING  */
 
-/* .list_item:not(:last-child) {
-  margin-right: 24px;
-} */
-
 .icon-wrapper {
   margin-bottom: 8px;
 
@@ -266,7 +262,7 @@ li:not(:last-child) .contacts-item {
   margin: auto auto;
 }
 
-.member-data .description-text {
+.member-card .description-text {
   margin-bottom: 8px;
 }
 
@@ -414,7 +410,6 @@ main .section:nth-child(4n) {
 /* CARDS */
 
 .link > img {
-  margin-bottom: 32px;
   object-fit: contain;
   max-width: 100%;
 }
@@ -442,6 +437,5 @@ main .section:nth-child(4n) {
 }
 
 .card-description {
-  margin-left: 16px;
-  margin-bottom: 32px;
+  padding: 32px 16px;
 }
